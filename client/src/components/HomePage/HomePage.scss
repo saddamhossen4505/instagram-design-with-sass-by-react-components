@@ -1,0 +1,12 @@
+.homePage{
+    display: flex;
+    flex-direction: row;
+
+    .sideNav{
+        flex: 0.2;
+    }
+
+    .timeline{
+        flex: 0.8;
+    }
+}

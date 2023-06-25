@@ -1,0 +1,73 @@
+.modal_blur {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+
+  .modal_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .modal_main {
+      width: 500px;
+      background-color: #fff;
+      border-radius: 10px;
+
+      .modal_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+
+        .modal_title {
+          font-size: 20px;
+        }
+        button {
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          font-size: 22px;
+        }
+      }
+
+      .modal_body {
+        padding: 20px 30px;
+        text-align: center;
+
+        .uploadImgLogo {
+          img {
+            width: 200px;
+            cursor: pointer;
+          }
+        }
+
+        p {
+          font-size: 22px;
+          margin-bottom: 30px;
+          color: #777;
+        }
+
+        button {
+          border: none;
+          background-color: #1877f2;
+          color: #fff;
+          width: 200px;
+          height: 40px;
+          font-size: 20px;
+          border-radius: 10px;
+          margin-bottom: 40px;
+        }
+
+        #uploadImg {
+          display: none;
+        }
+      }
+    }
+  }
+}
